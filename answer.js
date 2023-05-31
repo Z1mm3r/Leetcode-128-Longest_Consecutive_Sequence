@@ -2,7 +2,7 @@ var longestConsecutive = function(nums) {
     
     //We will use a set.
     //Why? Mainly to gain acces to set.has(), which has time complexity O(1) instead of array.includes(), which is O(n).
-    //Ok, but what abou the time to setup the set from an array? Won't that be O(n) on its own?
+    //Ok, but what about the time to setup the set from an array? Won't that be O(n) on its own?
     ////Does use iteration, but this isn't nested, so if the rest of our solution is O(n) we get O(n+n) => O(2n) =>  O(n)
     let numSet = new Set(nums);
 
